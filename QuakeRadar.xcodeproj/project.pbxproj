@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80D3B10D181C20890011F6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10C181C20890011F6EA /* Foundation.framework */; };
+		80D3B10F181C20890011F6EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10E181C20890011F6EA /* CoreGraphics.framework */; };
+		80D3B111181C20890011F6EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B110181C20890011F6EA /* UIKit.framework */; };
+		80D3B117181C20890011F6EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B115181C20890011F6EA /* InfoPlist.strings */; };
+		80D3B119181C20890011F6EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B118181C20890011F6EA /* main.m */; };
+		80D3B11D181C20890011F6EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B11C181C20890011F6EA /* AppDelegate.m */; };
+		80D3B120181C20890011F6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B11E181C20890011F6EA /* Main.storyboard */; };
+		80D3B123181C20890011F6EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B122181C20890011F6EA /* ViewController.m */; };
+		80D3B125181C20890011F6EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B124181C20890011F6EA /* Images.xcassets */; };
+		80D3B12C181C20890011F6EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B12B181C20890011F6EA /* XCTest.framework */; };
+		80D3B12D181C20890011F6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10C181C20890011F6EA /* Foundation.framework */; };
+		80D3B12E181C20890011F6EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B110181C20890011F6EA /* UIKit.framework */; };
+		80D3B136181C20890011F6EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B134181C20890011F6EA /* InfoPlist.strings */; };
+		80D3B138181C20890011F6EA /* QuakeRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B137181C20890011F6EA /* QuakeRadarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80D3B12F181C20890011F6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80D3B101181C20890011F6EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80D3B108181C20890011F6EA;
+			remoteInfo = QuakeRadar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80D3B109181C20890011F6EA /* QuakeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D3B10C181C20890011F6EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80D3B10E181C20890011F6EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80D3B110181C20890011F6EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80D3B114181C20890011F6EA /* QuakeRadar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuakeRadar-Info.plist"; sourceTree = "<group>"; };
+		80D3B116181C20890011F6EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80D3B118181C20890011F6EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80D3B11A181C20890011F6EA /* QuakeRadar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuakeRadar-Prefix.pch"; sourceTree = "<group>"; };
+		80D3B11B181C20890011F6EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80D3B11C181C20890011F6EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80D3B11F181C20890011F6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80D3B121181C20890011F6EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80D3B122181C20890011F6EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80D3B124181C20890011F6EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80D3B12A181C20890011F6EA /* QuakeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D3B12B181C20890011F6EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		80D3B133181C20890011F6EA /* QuakeRadarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuakeRadarTests-Info.plist"; sourceTree = "<group>"; };
+		80D3B135181C20890011F6EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80D3B137181C20890011F6EA /* QuakeRadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeRadarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80D3B106181C20890011F6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B10F181C20890011F6EA /* CoreGraphics.framework in Frameworks */,
+				80D3B111181C20890011F6EA /* UIKit.framework in Frameworks */,
+				80D3B10D181C20890011F6EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D3B127181C20890011F6EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B12C181C20890011F6EA /* XCTest.framework in Frameworks */,
+				80D3B12E181C20890011F6EA /* UIKit.framework in Frameworks */,
+				80D3B12D181C20890011F6EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80D3B100181C20890011F6EA = {
+			isa = PBXGroup;
+			children = (
+				80D3B112181C20890011F6EA /* QuakeRadar */,
+				80D3B131181C20890011F6EA /* QuakeRadarTests */,
+				80D3B10B181C20890011F6EA /* Frameworks */,
+				80D3B10A181C20890011F6EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80D3B10A181C20890011F6EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B109181C20890011F6EA /* QuakeRadar.app */,
+				80D3B12A181C20890011F6EA /* QuakeRadarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80D3B10B181C20890011F6EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B10C181C20890011F6EA /* Foundation.framework */,
+				80D3B10E181C20890011F6EA /* CoreGraphics.framework */,
+				80D3B110181C20890011F6EA /* UIKit.framework */,
+				80D3B12B181C20890011F6EA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80D3B112181C20890011F6EA /* QuakeRadar */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B11B181C20890011F6EA /* AppDelegate.h */,
+				80D3B11C181C20890011F6EA /* AppDelegate.m */,
+				80D3B11E181C20890011F6EA /* Main.storyboard */,
+				80D3B121181C20890011F6EA /* ViewController.h */,
+				80D3B122181C20890011F6EA /* ViewController.m */,
+				80D3B124181C20890011F6EA /* Images.xcassets */,
+				80D3B113181C20890011F6EA /* Supporting Files */,
+			);
+			path = QuakeRadar;
+			sourceTree = "<group>";
+		};
+		80D3B113181C20890011F6EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B114181C20890011F6EA /* QuakeRadar-Info.plist */,
+				80D3B115181C20890011F6EA /* InfoPlist.strings */,
+				80D3B118181C20890011F6EA /* main.m */,
+				80D3B11A181C20890011F6EA /* QuakeRadar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D3B131181C20890011F6EA /* QuakeRadarTests */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B137181C20890011F6EA /* QuakeRadarTests.m */,
+				80D3B132181C20890011F6EA /* Supporting Files */,
+			);
+			path = QuakeRadarTests;
+			sourceTree = "<group>";
+		};
+		80D3B132181C20890011F6EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B133181C20890011F6EA /* QuakeRadarTests-Info.plist */,
+				80D3B134181C20890011F6EA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80D3B108181C20890011F6EA /* QuakeRadar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D3B13B181C20890011F6EA /* Build configuration list for PBXNativeTarget "QuakeRadar" */;
+			buildPhases = (
+				80D3B105181C20890011F6EA /* Sources */,
+				80D3B106181C20890011F6EA /* Frameworks */,
+				80D3B107181C20890011F6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuakeRadar;
+			productName = QuakeRadar;
+			productReference = 80D3B109181C20890011F6EA /* QuakeRadar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80D3B129181C20890011F6EA /* QuakeRadarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80D3B13E181C20890011F6EA /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */;
+			buildPhases = (
+				80D3B126181C20890011F6EA /* Sources */,
+				80D3B127181C20890011F6EA /* Frameworks */,
+				80D3B128181C20890011F6EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80D3B130181C20890011F6EA /* PBXTargetDependency */,
+			);
+			name = QuakeRadarTests;
+			productName = QuakeRadarTests;
+			productReference = 80D3B12A181C20890011F6EA /* QuakeRadarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80D3B101181C20890011F6EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Tekhne;
+				TargetAttributes = {
+					80D3B129181C20890011F6EA = {
+						TestTargetID = 80D3B108181C20890011F6EA;
+					};
+				};
+			};
+			buildConfigurationList = 80D3B104181C20890011F6EA /* Build configuration list for PBXProject "QuakeRadar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80D3B100181C20890011F6EA;
+			productRefGroup = 80D3B10A181C20890011F6EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80D3B108181C20890011F6EA /* QuakeRadar */,
+				80D3B129181C20890011F6EA /* QuakeRadarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80D3B107181C20890011F6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B125181C20890011F6EA /* Images.xcassets in Resources */,
+				80D3B117181C20890011F6EA /* InfoPlist.strings in Resources */,
+				80D3B120181C20890011F6EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D3B128181C20890011F6EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B136181C20890011F6EA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80D3B105181C20890011F6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B123181C20890011F6EA /* ViewController.m in Sources */,
+				80D3B11D181C20890011F6EA /* AppDelegate.m in Sources */,
+				80D3B119181C20890011F6EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80D3B126181C20890011F6EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D3B138181C20890011F6EA /* QuakeRadarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80D3B130181C20890011F6EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80D3B108181C20890011F6EA /* QuakeRadar */;
+			targetProxy = 80D3B12F181C20890011F6EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80D3B115181C20890011F6EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D3B116181C20890011F6EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80D3B11E181C20890011F6EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D3B11F181C20890011F6EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80D3B134181C20890011F6EA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80D3B135181C20890011F6EA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80D3B139181C20890011F6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80D3B13A181C20890011F6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80D3B13C181C20890011F6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuakeRadar/QuakeRadar-Prefix.pch";
+				INFOPLIST_FILE = "QuakeRadar/QuakeRadar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80D3B13D181C20890011F6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuakeRadar/QuakeRadar-Prefix.pch";
+				INFOPLIST_FILE = "QuakeRadar/QuakeRadar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		80D3B13F181C20890011F6EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuakeRadar.app/QuakeRadar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuakeRadar/QuakeRadar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "QuakeRadarTests/QuakeRadarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		80D3B140181C20890011F6EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/QuakeRadar.app/QuakeRadar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuakeRadar/QuakeRadar-Prefix.pch";
+				INFOPLIST_FILE = "QuakeRadarTests/QuakeRadarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80D3B104181C20890011F6EA /* Build configuration list for PBXProject "QuakeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D3B139181C20890011F6EA /* Debug */,
+				80D3B13A181C20890011F6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80D3B13B181C20890011F6EA /* Build configuration list for PBXNativeTarget "QuakeRadar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D3B13C181C20890011F6EA /* Debug */,
+				80D3B13D181C20890011F6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80D3B13E181C20890011F6EA /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D3B13F181C20890011F6EA /* Debug */,
+				80D3B140181C20890011F6EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80D3B101181C20890011F6EA /* Project object */;
+}
