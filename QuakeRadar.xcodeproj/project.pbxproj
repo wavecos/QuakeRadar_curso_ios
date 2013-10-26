@@ -14,13 +14,29 @@
 		80D3B119181C20890011F6EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B118181C20890011F6EA /* main.m */; };
 		80D3B11D181C20890011F6EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B11C181C20890011F6EA /* AppDelegate.m */; };
 		80D3B120181C20890011F6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B11E181C20890011F6EA /* Main.storyboard */; };
-		80D3B123181C20890011F6EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B122181C20890011F6EA /* ViewController.m */; };
+		80D3B123181C20890011F6EA /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B122181C20890011F6EA /* MapViewController.m */; };
 		80D3B125181C20890011F6EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B124181C20890011F6EA /* Images.xcassets */; };
 		80D3B12C181C20890011F6EA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B12B181C20890011F6EA /* XCTest.framework */; };
 		80D3B12D181C20890011F6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10C181C20890011F6EA /* Foundation.framework */; };
 		80D3B12E181C20890011F6EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B110181C20890011F6EA /* UIKit.framework */; };
 		80D3B136181C20890011F6EA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B134181C20890011F6EA /* InfoPlist.strings */; };
 		80D3B138181C20890011F6EA /* QuakeRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B137181C20890011F6EA /* QuakeRadarTests.m */; };
+		80D3B14E181C22530011F6EA /* action.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B142181C22530011F6EA /* action.png */; };
+		80D3B14F181C22530011F6EA /* cool.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B143181C22530011F6EA /* cool.gif */; };
+		80D3B150181C22530011F6EA /* crying.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B144181C22530011F6EA /* crying.gif */; };
+		80D3B151181C22530011F6EA /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B145181C22530011F6EA /* logo.png */; };
+		80D3B152181C22530011F6EA /* logo114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B146181C22530011F6EA /* logo114x114.png */; };
+		80D3B153181C22530011F6EA /* logo57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B147181C22530011F6EA /* logo57x57.png */; };
+		80D3B154181C22530011F6EA /* newspaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B148181C22530011F6EA /* newspaper.png */; };
+		80D3B155181C22530011F6EA /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B149181C22530011F6EA /* orange.png */; };
+		80D3B156181C22530011F6EA /* quake.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B14A181C22530011F6EA /* quake.gif */; };
+		80D3B157181C22530011F6EA /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B14B181C22530011F6EA /* radar.png */; };
+		80D3B158181C22530011F6EA /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B14C181C22530011F6EA /* red.png */; };
+		80D3B159181C22530011F6EA /* sad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 80D3B14D181C22530011F6EA /* sad.gif */; };
+		80D3B15C181C22DF0011F6EA /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B15B181C22DF0011F6EA /* ListViewController.m */; };
+		80D3B15F181C24780011F6EA /* Quake.m in Sources */ = {isa = PBXBuildFile; fileRef = 80D3B15E181C24780011F6EA /* Quake.m */; };
+		80D3B161181C265E0011F6EA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B160181C265E0011F6EA /* CoreLocation.framework */; };
+		80D3B163181C26690011F6EA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B162181C26690011F6EA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +61,32 @@
 		80D3B11B181C20890011F6EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		80D3B11C181C20890011F6EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		80D3B11F181C20890011F6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		80D3B121181C20890011F6EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		80D3B122181C20890011F6EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80D3B121181C20890011F6EA /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		80D3B122181C20890011F6EA /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		80D3B124181C20890011F6EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80D3B12A181C20890011F6EA /* QuakeRadarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuakeRadarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D3B12B181C20890011F6EA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		80D3B133181C20890011F6EA /* QuakeRadarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuakeRadarTests-Info.plist"; sourceTree = "<group>"; };
 		80D3B135181C20890011F6EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		80D3B137181C20890011F6EA /* QuakeRadarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeRadarTests.m; sourceTree = "<group>"; };
+		80D3B142181C22530011F6EA /* action.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = action.png; sourceTree = "<group>"; };
+		80D3B143181C22530011F6EA /* cool.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cool.gif; sourceTree = "<group>"; };
+		80D3B144181C22530011F6EA /* crying.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = crying.gif; sourceTree = "<group>"; };
+		80D3B145181C22530011F6EA /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		80D3B146181C22530011F6EA /* logo114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo114x114.png; sourceTree = "<group>"; };
+		80D3B147181C22530011F6EA /* logo57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo57x57.png; sourceTree = "<group>"; };
+		80D3B148181C22530011F6EA /* newspaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspaper.png; sourceTree = "<group>"; };
+		80D3B149181C22530011F6EA /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		80D3B14A181C22530011F6EA /* quake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = quake.gif; sourceTree = "<group>"; };
+		80D3B14B181C22530011F6EA /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		80D3B14C181C22530011F6EA /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		80D3B14D181C22530011F6EA /* sad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sad.gif; sourceTree = "<group>"; };
+		80D3B15A181C22DF0011F6EA /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		80D3B15B181C22DF0011F6EA /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		80D3B15D181C24780011F6EA /* Quake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quake.h; sourceTree = "<group>"; };
+		80D3B15E181C24780011F6EA /* Quake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quake.m; sourceTree = "<group>"; };
+		80D3B160181C265E0011F6EA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		80D3B162181C26690011F6EA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D3B163181C26690011F6EA /* MapKit.framework in Frameworks */,
+				80D3B161181C265E0011F6EA /* CoreLocation.framework in Frameworks */,
 				80D3B10F181C20890011F6EA /* CoreGraphics.framework in Frameworks */,
 				80D3B111181C20890011F6EA /* UIKit.framework in Frameworks */,
 				80D3B10D181C20890011F6EA /* Foundation.framework in Frameworks */,
@@ -101,6 +137,8 @@
 		80D3B10B181C20890011F6EA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				80D3B162181C26690011F6EA /* MapKit.framework */,
+				80D3B160181C265E0011F6EA /* CoreLocation.framework */,
 				80D3B10C181C20890011F6EA /* Foundation.framework */,
 				80D3B10E181C20890011F6EA /* CoreGraphics.framework */,
 				80D3B110181C20890011F6EA /* UIKit.framework */,
@@ -112,13 +150,18 @@
 		80D3B112181C20890011F6EA /* QuakeRadar */ = {
 			isa = PBXGroup;
 			children = (
+				80D3B141181C22530011F6EA /* Resources */,
 				80D3B11B181C20890011F6EA /* AppDelegate.h */,
 				80D3B11C181C20890011F6EA /* AppDelegate.m */,
 				80D3B11E181C20890011F6EA /* Main.storyboard */,
-				80D3B121181C20890011F6EA /* ViewController.h */,
-				80D3B122181C20890011F6EA /* ViewController.m */,
 				80D3B124181C20890011F6EA /* Images.xcassets */,
 				80D3B113181C20890011F6EA /* Supporting Files */,
+				80D3B15A181C22DF0011F6EA /* ListViewController.h */,
+				80D3B15B181C22DF0011F6EA /* ListViewController.m */,
+				80D3B121181C20890011F6EA /* MapViewController.h */,
+				80D3B122181C20890011F6EA /* MapViewController.m */,
+				80D3B15D181C24780011F6EA /* Quake.h */,
+				80D3B15E181C24780011F6EA /* Quake.m */,
 			);
 			path = QuakeRadar;
 			sourceTree = "<group>";
@@ -150,6 +193,25 @@
 				80D3B134181C20890011F6EA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80D3B141181C22530011F6EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80D3B142181C22530011F6EA /* action.png */,
+				80D3B143181C22530011F6EA /* cool.gif */,
+				80D3B144181C22530011F6EA /* crying.gif */,
+				80D3B145181C22530011F6EA /* logo.png */,
+				80D3B146181C22530011F6EA /* logo114x114.png */,
+				80D3B147181C22530011F6EA /* logo57x57.png */,
+				80D3B148181C22530011F6EA /* newspaper.png */,
+				80D3B149181C22530011F6EA /* orange.png */,
+				80D3B14A181C22530011F6EA /* quake.gif */,
+				80D3B14B181C22530011F6EA /* radar.png */,
+				80D3B14C181C22530011F6EA /* red.png */,
+				80D3B14D181C22530011F6EA /* sad.gif */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +291,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				80D3B125181C20890011F6EA /* Images.xcassets in Resources */,
+				80D3B155181C22530011F6EA /* orange.png in Resources */,
 				80D3B117181C20890011F6EA /* InfoPlist.strings in Resources */,
+				80D3B150181C22530011F6EA /* crying.gif in Resources */,
+				80D3B14F181C22530011F6EA /* cool.gif in Resources */,
+				80D3B151181C22530011F6EA /* logo.png in Resources */,
+				80D3B154181C22530011F6EA /* newspaper.png in Resources */,
 				80D3B120181C20890011F6EA /* Main.storyboard in Resources */,
+				80D3B156181C22530011F6EA /* quake.gif in Resources */,
+				80D3B159181C22530011F6EA /* sad.gif in Resources */,
+				80D3B14E181C22530011F6EA /* action.png in Resources */,
+				80D3B153181C22530011F6EA /* logo57x57.png in Resources */,
+				80D3B158181C22530011F6EA /* red.png in Resources */,
+				80D3B152181C22530011F6EA /* logo114x114.png in Resources */,
+				80D3B157181C22530011F6EA /* radar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D3B123181C20890011F6EA /* ViewController.m in Sources */,
+				80D3B123181C20890011F6EA /* MapViewController.m in Sources */,
 				80D3B11D181C20890011F6EA /* AppDelegate.m in Sources */,
+				80D3B15C181C22DF0011F6EA /* ListViewController.m in Sources */,
 				80D3B119181C20890011F6EA /* main.m in Sources */,
+				80D3B15F181C24780011F6EA /* Quake.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
