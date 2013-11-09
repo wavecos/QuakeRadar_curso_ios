@@ -16,7 +16,7 @@
 
 dispatch_queue_t myQuakeQueue;
 
-NSMutableArray *quakes;
+NSArray *quakes;
 
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -32,22 +32,7 @@ NSMutableArray *quakes;
 {
     [super viewDidLoad];
     
-    NSString *urlStr = @"http://earthquake.usgs.gov/earthquakes/feed/v0.1/summary/all_hour.geojson";
-    
-    NSURL *url = [NSURL URLWithString:urlStr];
-    
-    
-    
-    myQuakeQueue = dispatch_queue_create("com.tekhne.QuakeRadar", NULL);
-    
-    dispatch_async(myQuakeQueue, ^{
-        NSData *quakeData = [NSData dataWithContentsOfURL:url];
-        NSDictionary *quakeDic = [NSJSONSerialization JSONObjectWithData:quakeData options:kNilOptions error:nil];
-        
-        dispatch_async(dispatch_get_main_queue(), ^{
-            [self processData:quakeDic];
-        });
-    });
+    [self earthquakesInPastHour];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -62,36 +47,56 @@ NSMutableArray *quakes;
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark Data Manipulation
+#pragma mark Get All Earthquakes in Past Hour
+-(void) earthquakesInPastHour {
 
--(void) processData:(NSDictionary *) quakeDic {
-    NSLog(@"Informacion Recibida :: %@", quakeDic);
+    myQuakeQueue = dispatch_queue_create("com.tekhne.QuakeRadar", NULL);
+    
+    dispatch_async(myQuakeQueue, ^{
+        
+        quakes = [QuakeUtilities earthquakesInPastHour];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self refreshTable];
+        });
+    });
 }
 
 
+#pragma mark Refresh TableView
+
+-(void) refreshTable {
+    [self.tableView reloadData];
+}
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [quakes count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
+    static NSString *CellIdentifier = @"QuakeCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    // Configure the cell...
+    //Quake *quake = quakes[indexPath.row];
+    Quake *quake = [quakes objectAtIndex:indexPath.row];
+    
+    cell.textLabel.text = quake.place;
+    NSMutableString *detail = [[NSMutableString alloc] init];
+    
+    [detail appendFormat:@"Mag: %@", quake.magnitude];
+    [detail appendFormat:@"\t Dur: %@", quake.duration];
+    [detail appendFormat:@"\t Prof: %@", quake.proof];
+    
+    cell.detailTextLabel.text = detail;
     
     return cell;
 }

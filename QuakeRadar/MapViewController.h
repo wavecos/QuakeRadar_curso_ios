@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "QuakeUtilities.h"
+#import "Quake.h"
 
 @interface MapViewController : UIViewController
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end

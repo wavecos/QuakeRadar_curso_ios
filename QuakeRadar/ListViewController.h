@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QuakeUtilities.h"
+#import "Quake.h"
 
 @interface ListViewController : UITableViewController
 

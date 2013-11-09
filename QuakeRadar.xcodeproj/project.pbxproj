@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80B2031F182E71140092017A /* QuakeUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B2031E182E71140092017A /* QuakeUtilities.m */; };
 		80D3B10D181C20890011F6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10C181C20890011F6EA /* Foundation.framework */; };
 		80D3B10F181C20890011F6EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B10E181C20890011F6EA /* CoreGraphics.framework */; };
 		80D3B111181C20890011F6EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D3B110181C20890011F6EA /* UIKit.framework */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		80B2031D182E71140092017A /* QuakeUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuakeUtilities.h; sourceTree = "<group>"; };
+		80B2031E182E71140092017A /* QuakeUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuakeUtilities.m; sourceTree = "<group>"; };
 		80D3B109181C20890011F6EA /* QuakeRadar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuakeRadar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D3B10C181C20890011F6EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80D3B10E181C20890011F6EA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,8 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D3B163181C26690011F6EA /* MapKit.framework in Frameworks */,
 				80D3B161181C265E0011F6EA /* CoreLocation.framework in Frameworks */,
+				80D3B163181C26690011F6EA /* MapKit.framework in Frameworks */,
 				80D3B10F181C20890011F6EA /* CoreGraphics.framework in Frameworks */,
 				80D3B111181C20890011F6EA /* UIKit.framework in Frameworks */,
 				80D3B10D181C20890011F6EA /* Foundation.framework in Frameworks */,
@@ -162,6 +165,8 @@
 				80D3B122181C20890011F6EA /* MapViewController.m */,
 				80D3B15D181C24780011F6EA /* Quake.h */,
 				80D3B15E181C24780011F6EA /* Quake.m */,
+				80B2031D182E71140092017A /* QuakeUtilities.h */,
+				80B2031E182E71140092017A /* QuakeUtilities.m */,
 			);
 			path = QuakeRadar;
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 			files = (
 				80D3B123181C20890011F6EA /* MapViewController.m in Sources */,
 				80D3B11D181C20890011F6EA /* AppDelegate.m in Sources */,
+				80B2031F182E71140092017A /* QuakeUtilities.m in Sources */,
 				80D3B15C181C22DF0011F6EA /* ListViewController.m in Sources */,
 				80D3B119181C20890011F6EA /* main.m in Sources */,
 				80D3B15F181C24780011F6EA /* Quake.m in Sources */,
@@ -536,6 +542,7 @@
 				80D3B13D181C20890011F6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80D3B13E181C20890011F6EA /* Build configuration list for PBXNativeTarget "QuakeRadarTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +551,7 @@
 				80D3B140181C20890011F6EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
