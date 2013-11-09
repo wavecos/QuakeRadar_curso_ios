@@ -32,6 +32,14 @@ NSString * const kEarthquakeInPastHour = @"http://earthquake.usgs.gov/earthquake
         quake.place = properties[@"place"];
         quake.magnitude = [NSString stringWithFormat:@"%@ %@", properties[@"mag"], properties[@"magnitudeType"]];
         
+        double magnitude = [properties[@"mag"] doubleValue];
+        
+        if (magnitude > 1.5) {
+            quake.imgAlert = [UIImage imageNamed:@"red.png"];
+        } else {
+            quake.imgAlert = [UIImage imageNamed:@"orange.png"];
+        }
+        
         double unixTime = [properties[@"time"] doubleValue];
         // Time
         quake.time = [NSDate dateWithTimeIntervalSince1970:unixTime / 1000];

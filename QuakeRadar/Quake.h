@@ -21,4 +21,6 @@
 
 @property (nonatomic, strong) CLLocation *location;
 
+@property (nonatomic, strong) UIImage *imgAlert;
+
 @end

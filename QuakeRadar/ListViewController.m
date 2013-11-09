@@ -97,6 +97,7 @@ NSArray *quakes;
     [detail appendFormat:@"\t Prof: %@", quake.proof];
     
     cell.detailTextLabel.text = detail;
+    cell.imageView.image = quake.imgAlert;
     
     return cell;
 }
